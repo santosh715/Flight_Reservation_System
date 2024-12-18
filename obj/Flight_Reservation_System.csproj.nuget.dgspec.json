@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AARATHOD\\OneDrive - Capgemini\\Desktop\\Flight Reservation System\\Flight_Reservation_System\\Flight_Reservation_System.csproj": {}
+    "C:\\Users\\santosgu\\Desktop\\FlightreservationSystem\\Flight_Reservation_System\\Flight_Reservation_System.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AARATHOD\\OneDrive - Capgemini\\Desktop\\Flight Reservation System\\Flight_Reservation_System\\Flight_Reservation_System.csproj": {
+    "C:\\Users\\santosgu\\Desktop\\FlightreservationSystem\\Flight_Reservation_System\\Flight_Reservation_System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AARATHOD\\OneDrive - Capgemini\\Desktop\\Flight Reservation System\\Flight_Reservation_System\\Flight_Reservation_System.csproj",
+        "projectUniqueName": "C:\\Users\\santosgu\\Desktop\\FlightreservationSystem\\Flight_Reservation_System\\Flight_Reservation_System.csproj",
         "projectName": "Flight_Reservation_System",
-        "projectPath": "C:\\Users\\AARATHOD\\OneDrive - Capgemini\\Desktop\\Flight Reservation System\\Flight_Reservation_System\\Flight_Reservation_System.csproj",
-        "packagesPath": "C:\\Users\\AARATHOD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AARATHOD\\OneDrive - Capgemini\\Desktop\\Flight Reservation System\\Flight_Reservation_System\\obj\\",
+        "projectPath": "C:\\Users\\santosgu\\Desktop\\FlightreservationSystem\\Flight_Reservation_System\\Flight_Reservation_System.csproj",
+        "packagesPath": "C:\\Users\\santosgu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\santosgu\\Desktop\\FlightreservationSystem\\Flight_Reservation_System\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AARATHOD\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\santosgu\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -36,17 +36,16 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -86,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

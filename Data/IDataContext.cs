@@ -14,8 +14,8 @@ namespace Flight_Reservation_System.Data
 
       public required DbSet<Flight> Flights {get; set;}
 
-      // public required DbSet<User> Users {get; set;}
+      public required DbSet<Booking> Bookings {get; set;}
 
-
+      public required DbSet<Payment> Payments {get; set;}
    }
 }
