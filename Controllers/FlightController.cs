@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace Flight_Reservation_System
 {
-    [Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Admin, ADMIN")]
     [ApiController] // Marks this as an API controller
     [Route("api/[controller]")]
     public class FlightController : Controller

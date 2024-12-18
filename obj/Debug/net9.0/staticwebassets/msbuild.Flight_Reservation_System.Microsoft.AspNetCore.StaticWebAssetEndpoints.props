@@ -28,13 +28,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Flight_Reservation_System.n4n8zw6udo.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-F4r\u002BjAIOzXcWOIw5Ce13vXBT3ZSJK5NNSE7eCkmir54="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1143"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022F4r\u002BjAIOzXcWOIw5Ce13vXBT3ZSJK5NNSE7eCkmir54=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Dec 2024 09:44:37 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1143"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022F4r\u002BjAIOzXcWOIw5Ce13vXBT3ZSJK5NNSE7eCkmir54=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Dec 2024 18:36:36 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Flight_Reservation_System/Flight_Reservation_System.n4n8zw6udo.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Flight_Reservation_System.n4n8zw6udo.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"n4n8zw6udo"},{"Name":"integrity","Value":"sha256-F4r\u002BjAIOzXcWOIw5Ce13vXBT3ZSJK5NNSE7eCkmir54="},{"Name":"label","Value":"_content/Flight_Reservation_System/Flight_Reservation_System.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1143"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022F4r\u002BjAIOzXcWOIw5Ce13vXBT3ZSJK5NNSE7eCkmir54=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Dec 2024 09:44:37 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1143"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022F4r\u002BjAIOzXcWOIw5Ce13vXBT3ZSJK5NNSE7eCkmir54=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Dec 2024 18:36:36 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Flight_Reservation_System/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
