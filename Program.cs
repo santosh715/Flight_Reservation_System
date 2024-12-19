@@ -9,9 +9,7 @@ namespace Flight_Reservation_System
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-            builder.Services.AddTransient<IEmailService, EmailService>();
-            builder.Services.Configure<SmtpSettings>(builder.Configuration.GetSection("SmtpSettings"));
- 
+
             // Add controllers and views
             builder.Services.AddControllersWithViews();
 
@@ -62,11 +60,11 @@ namespace Flight_Reservation_System
             app.UseAuthorization();
 
             // Map static assets and controller routes
-            app.UseStaticFiles();
+            app.MapStaticAssets();
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
-                
+                pattern: "{controller=Home}/{action=Index}/{id?}")
+                .WithStaticAssets();
 
             app.Run();
         }
